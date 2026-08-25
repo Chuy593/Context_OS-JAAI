@@ -7,6 +7,7 @@
 *(One entry per project, added at kick-off. Format: `- **[name/](name/CLAUDE.md)** — one line on what it does.`)*
 
 - **[optimus-steel/](optimus-steel/CLAUDE.md)** — Cost review mensual, FP&A y controlling industrial (SAP CO/FI/MM/PP) de Optimus Steel.
+- **[habitos-salud/](habitos-salud/CLAUDE.md)** — Salud, bienestar y hábitos de Chuy: seguimiento longitudinal de biomarcadores y análisis multidisciplinario (nutrición, endocrinología, cardiología, sueño, ejercicio, estrés) para reducir grasa corporal, mejorar perfil metabólico/hormonal y aumentar healthspan.
 
 ---
 *A new project is opened with `03_skills/project-kickoff/SKILL.md`.*
