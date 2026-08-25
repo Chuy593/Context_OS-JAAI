@@ -1,0 +1,25 @@
+# Resumen Semanal de Status — Proyecto VSM Planeación Financiera Optimus Steel
+
+Semana del 14 al 21 de agosto de 2026. Migrado desde el Project "VSM Planeación Financiera Optimus Steel" de claude.ai el 2026-08-25. Estado vigente en memory.md de 10_projects/vsm-planeacion-financiera/.
+
+## Logros clave de la semana
+
+La semana arrancó con la reunión del 13 de agosto con el asesor SAP (Jeanpiero Linares), de la cual se extrajo el primer borrador de 16 procesos candidatos al inventario maestro, y con la primera entrevista individual de mapeo detallado (Daniel Agudelo, 18 de agosto), reportadas ya en el resumen anterior.
+
+A partir de esa base, el foco de esta semana estuvo en la carga y consolidación del inventario maestro en Smartsheet a partir de los archivos individuales que cada persona del equipo está llenando en la carpeta compartida VSM. Se confirmó la identidad y correo de cuatro personas adicionales cuyos archivos fueron apareciendo o llenándose durante la semana: David Berrio Zapata, Laura Cristina Castro Salazar, Felipe Castrillón Cuartas y Benjamin Carrillo. En corridas sucesivas de actualización (18, 19 y 21 de agosto) se cargaron a Smartsheet los procesos capturados por cada uno: 21 procesos de Daniel Agudelo y David Berrio Zapata el 18 de agosto, 9 procesos de Laura Castro y 8 de Felipe Castrillón el 19 de agosto, y 9 procesos de Benjamin Carrillo el 21 de agosto. Daniel Agudelo también agregó un proceso adicional a su archivo (Refacturación de equipos IT y líneas de Google) durante la semana. Con esto, el inventario maestro en Smartsheet pasó de las 2 filas iniciales (PF-008 y PF-009) a 56 procesos cargados (hasta PF-056), todos con estatus "Por mapear" en espera de las sesiones de mapeo detallado.
+
+También se formalizó el mecanismo de sincronización a demanda entre los Excel individuales y la hoja maestra: cada corrida detecta procesos nuevos para cargar y procesos retirados del Excel de origen para eliminar de Smartsheet, y escribe de vuelta el ID de proceso maestro asignado en el archivo de cada persona. No se detectaron borrados en ninguna de las corridas de la semana.
+
+## Decisiones tomadas
+
+Se confirmó y quedó documentado el correo de cada una de las cuatro personas nuevas identificadas esta semana, incluyendo la particularidad de que Benjamin Carrillo utiliza un dominio de correo distinto al resto del equipo (optimus-steelusa.com en vez de turia-gbs.com), por lo que no se debe asumir el mismo dominio para próximas personas nuevas sin confirmarlo explícitamente.
+
+Se incorporó al picklist de Frecuencia en Smartsheet la opción "A Demanda / Eventual", que se usará en las próximas corridas para procesos de ese tipo en lugar de dejar el campo en blanco. Se mantiene el criterio ya establecido de llenar el campo "Prioridad de Mejora" en bloque una vez que todos los archivos individuales estén completos, y de eliminar de forma automática e incondicional de Smartsheet cualquier proceso que desaparezca del Excel de origen, aplicando un criterio conservador cuando la coincidencia entre archivo y hoja maestra no es clara.
+
+## Temas abiertos / pendientes para la próxima semana
+
+El archivo de Mauricio (aparentemente correspondiente a Mauricio Mojica) sigue vacío al cierre de la semana; falta confirmar su identidad completa y correo en cuanto tenga procesos capturados. Varias personas mencionadas como respaldo en procesos de otros (Daniela Benjumea, Daniela Muñeton, Luis Barrenechea, Adalberto, Valeria Londoño, y el propio Jesús Almaguer como backup de Benjamin) todavía no tienen archivo ni fila propia en el inventario.
+
+La fecha límite del 20 de agosto para que Daniel Agudelo completara el resto de su plantilla no tiene confirmación registrada de cumplimiento; queda pendiente verificar el estatus de su archivo. Sigue pendiente agendar y ejecutar las entrevistas de mapeo detallado (disparador, pasos, sistemas, tiempos, desperdicios) con Daniela, Diana y Jesús para los procesos de prioridad "Alta" identificados desde la reunión del 13 de agosto, así como definir formalmente los responsables de backup para Interfaces y Revisión SG&A (procesos de Daniel Agudelo), que a la fecha no cuentan con respaldo documentado.
+
+Continúa pendiente confirmar si el usuario logró configurar la tarea local de actualización automática del inventario en su equipo; la vía de automatización 100% en la nube quedó descartada por falta de acceso a las carpetas locales, por lo que el proceso de sincronización sigue operando en modalidad "a demanda". También sigue abierta la validación de si los 16 procesos de la reunión del 13 de agosto corresponden a los puntos 2.1.2, 2.1.3 y 2.1.9 del documento de referencia externo del usuario, y la definición de responsable y detalle para el proceso de manejo de órdenes internas, que permanece con información incompleta. Finalmente, con 56 procesos ya cargados y en estatus "Por mapear", queda pendiente iniciar la priorización y el mapeo VSM detallado proceso por proceso, y llenar en bloque el campo "Prioridad de Mejora" una vez que los archivos restantes (Mauricio y posibles nuevas personas) estén completos.
