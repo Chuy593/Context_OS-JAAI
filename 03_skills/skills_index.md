@@ -32,6 +32,7 @@ A procedure that already has a shape but has not yet passed the entry criterion 
 - **[specialize/SKILL.md](flusso/specialize/SKILL.md)** — before assisting on a subject with a literature of its own, fetches external evidence and crystallises it into a pill, instead of answering on intuition. Calls [knowledge-pill](atomiche/knowledge-pill/SKILL.md).
 - **[system-check/SKILL.md](flusso/system-check/SKILL.md)** — mechanical checks on the system (broken links, orphan files, stale paths, naming, date discrepancies) plus, on a periodic run, the judgement layer: duplicated content, rules drifting from reality, repeated patterns in the feedback log.
 - **[cost-review-mensual/SKILL.md](flusso/cost-review-mensual/SKILL.md)** — análisis del cost review mensual de Optimus Steel (cost per ton, producción vs. presupuesto, variaciones, causa raíz, riesgo) y redacción del Executive Summary en el formato real usado en los cost meetings.
+- **[analisis-salud-metabolica/SKILL.md](flusso/analisis-salud-metabolica/SKILL.md)** — análisis multidisciplinario (13 especialidades) de salud metabólica, hormonal y cardiovascular de Chuy: evaluación de suplementos/alimentación/ejercicio/sueño con nivel de evidencia, interpretación integral de laboratorios y generación del dashboard metabólico.
 
 ---
 *Editing a skill means editing it here, in `03_skills/<nature>/<name>/SKILL.md`: it's the single source. To reach Claude Code it also needs re-copying onto its twin folder in `.claude/skills/<name>/`, which stays flat (not an automatic link); for claude.ai/app, reload it from settings.*
