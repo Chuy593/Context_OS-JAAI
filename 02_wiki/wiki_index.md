@@ -6,6 +6,7 @@
 
 - **[example/](example/index_example.md)** — demonstration category: contains one note showing the format. 1 note.
 - **[optimus-steel/](optimus-steel/index_optimus-steel.md)** — áreas productivas y KPIs de costos de manufactura de Optimus Steel. 2 notes.
+- **[musica-jaai/](musica-jaai/index_musica-jaai.md)** — JAAI Music Framework: composicion, performance prompting, voice identity, workflow de Suno y direccion vocal. 7 notes.
 
 ---
 *Category entry format: `- **[CategoryName/](CategoryName/index_<category>.md)** — one line of description. N notes.`*
