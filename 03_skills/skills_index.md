@@ -1,11 +1,5 @@
 # skills — index
 
-> The system's skills, split by nature into **atomiche/** (atomic) and **flusso/** (flow). One folder per skill, `<name>/SKILL.md` with a YAML block at the top (name and description). This is the readable, editable source. Claude Code does not scan `03_skills/`: it discovers skills from `.claude/skills/`, which in this package already ships a ready copy of the same folders and stays **flat** (that is the execution location, not the reading one) — so on Claude Code they work with no user action. On claude.ai/app, which doesn't read `.claude/`, install them by copying each `SKILL.md`'s content into a new skill from settings.
-> The cascade towards everything under `03_skills/` starts here.
-
-## How they split
-
-- **Atomic** — one input, one output, no decision inside. It knows nothing about the context it runs in, so any flow can call it. It carries the rules of its own craft (spending caps, parameters, checks), so whoever uses it does not have to remember them.
 - **Flow** — a sequence that orders the work and hands it to a verdict from the user. Its value is the order and the gates, not the work: it points at atomic skills instead of re-explaining every step.
 
 The user's final verdict is **not** what tells the two apart: almost everything ends with a decision of theirs. The line is whether the unit is callable from other flows.
@@ -33,6 +27,7 @@ A procedure that already has a shape but has not yet passed the entry criterion 
 - **[system-check/SKILL.md](flusso/system-check/SKILL.md)** — mechanical checks on the system (broken links, orphan files, stale paths, naming, date discrepancies) plus, on a periodic run, the judgement layer: duplicated content, rules drifting from reality, repeated patterns in the feedback log.
 - **[cost-review-mensual/SKILL.md](flusso/cost-review-mensual/SKILL.md)** — análisis del cost review mensual de Optimus Steel (cost per ton, producción vs. presupuesto, variaciones, causa raíz, riesgo) y redacción del Executive Summary en el formato real usado en los cost meetings.
 - **[analisis-salud-metabolica/SKILL.md](flusso/analisis-salud-metabolica/SKILL.md)** — análisis multidisciplinario (13 especialidades) de salud metabólica, hormonal y cardiovascular de Chuy: evaluación de suplementos/alimentación/ejercicio/sueño con nivel de evidencia, interpretación integral de laboratorios y generación del dashboard metabólico.
+- **[actualizacion-inventario-vsm/SKILL.md](flusso/actualizacion-inventario-vsm/SKILL.md)** — sincroniza a demanda el Inventario Maestro de Procesos VSM en Smartsheet contra los Excel individuales del equipo. Usar para "ejecuta la actualización del inventario", "actualiza el inventario VSM".
 
 ---
 *Editing a skill means editing it here, in `03_skills/<nature>/<name>/SKILL.md`: it's the single source. To reach Claude Code it also needs re-copying onto its twin folder in `.claude/skills/<name>/`, which stays flat (not an automatic link); for claude.ai/app, reload it from settings.*
