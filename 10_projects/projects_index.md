@@ -11,6 +11,7 @@
 - **[habitos-salud/](habitos-salud/CLAUDE.md)** — Salud, bienestar y hábitos de Chuy: seguimiento longitudinal de biomarcadores y análisis multidisciplinario (nutrición, endocrinología, cardiología, sueño, ejercicio, estrés) para reducir grasa corporal, mejorar perfil metabólico/hormonal y aumentar healthspan.
 - **[musica-jaai/](musica-jaai/CLAUDE.md)** — Composicion, arreglos y produccion musical con IA (Suno) usando el JAAI Music Framework.
 - **[viaje-amigos/](viaje-amigos/CLAUDE.md)** - Despedida de soltero grupal a Colombia (Medellin/Cartagena/Bogota/Barranquilla), 12 personas, antes de mayo 2027: fechas, vuelos, hospedaje y presupuesto.
+- **[vsm-planeacion-financiera/](vsm-planeacion-financiera/CLAUDE.md)** — VSM del área de Planeación Financiera de Optimus Steel: inventario maestro de procesos, mapeo detallado (disparador, pasos, sistemas, tiempos, desperdicios) y sincronización con Smartsheet.
 
 ---
 *A new project is opened with `03_skills/project-kickoff/SKILL.md`.*
