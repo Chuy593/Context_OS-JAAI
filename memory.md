@@ -20,7 +20,7 @@ Jesús Almaguer (Chuy). Contralor de Costos en Optimus Steel, empresa metalúrgi
 |---|---|---|---|
 | `10_projects/vsm-planeacion-financiera` | Activo | 2026-08-25 | Mapear proceso → actividad → entrada → transformación → salida → cliente → tiempo → desperdicio |
 | `10_projects/habitos-salud` | Activo | 2026-08-25 | Definir plan concreto (alimentación + actividad) |
-| `10_projects/viaje-amigos` | Activo | 2026-08-25 | Definir fechas y destino |
+| `10_projects/viaje-amigos` | Activo | 2026-08-26 | Confirmar fecha exacta con los 12 y quien puede pedir el puente (Opcion A recomendada: 29 ene - 2/3 feb 2027, Medellin+Cartagena; detalle en 10_projects/viaje-amigos/memory.md) |
 | `10_projects/optimus-steel` | Activo | 2026-08-25 | Registrar el próximo cost review mensual usando el skill `cost-review-mensual` |
 | `10_projects/optimus-steel-data-warehouse` | Activo | 2026-08-25 | Subir archivos fuente (Ledger, Access, Power Query M code) a la carpeta conectada y diseñar arquitectura TO-BE |
 | `10_projects/musica-jaai` | Activo | 2026-08-25 | Definir la primera cancion/prompt concreto usando el framework migrado a 02_wiki/musica-jaai/ |
