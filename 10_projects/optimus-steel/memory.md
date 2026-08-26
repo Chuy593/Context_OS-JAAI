@@ -1,21 +1,29 @@
-# Optimus Steel - State
+# Optimus Steel — State
 
-> Estado operativo actual del proyecto Optimus Steel (cost review / controlling). El historico vive en `archive.md` de esta carpeta - aqui solo lo necesario para operar hoy.
+> Estado operativo actual del proyecto Optimus Steel (cost review / controlling). El histórico vive en `archive.md` de esta carpeta — aquí solo lo necesario para operar hoy.
 
-**Last updated:** 2026-08-26 (revisado en sesion de Cowork; sin cambios operativos - se hizo una verificacion completa cruzando el Project "Optimus Steel" de claude.ai contra CLAUDE.md, 03_skills/ y 02_wiki/optimus-steel/ de este repo: cost-review-mensual, correo-jesus, analisis-presentacion-pdf, analisis-transcripcion-reunion, areas-productivas-optimus-steel y kpis-costos-manufactura siguen alineados con las reglas del Project, sin gaps ni contenido desactualizado)
+**Last updated:** 2026-08-26 (cost review de agosto 2026 en curso; reviews semanales de Scrap Yard procesadas)
 
 ## State
 
-- El proyecto sigue dado de alta en Context OS con la metodologia de cost review, el estilo de correo y el conocimiento de dominio (areas, KPIs) distribuidos entre CLAUDE.md, los skills y la wiki - no se duplica nada en este archivo, conforme a la regla de single source of truth.
-- Cadencia: cost review mensual, cubriendo Scrap Yard, Melt Shop, Rolling Mill y Support Areas, con Executive Summary para COO/CFO/CEO.
-- Aun no hay un cost review en curso registrado aqui - no se ha cerrado ningun mes desde la migracion del 2026-08-25.
-- Cuatro correos de ejemplo (Jan, Feb, Mar, May 2026) estan en 01_raw/_processed/ como referencia de estilo real - usados para construir el skill de cost review y el de correo.
+- Ciclo activo: cost review de agosto 2026 en curso. Cierre de mes con cutoff de provisiones y reclasificaciones el miércoles 2 de septiembre 2026.
+- Scrap Yard: reviews semanales del 20 y 26 de agosto procesadas y finalizadas (versiones enviadas por Chuy = fuente de verdad). Posición al día 26: costo fijo $366K actual vs. $739K budget; diesel (variable) $25.6K vs. $41.76K budget. Volumen manejado por debajo del plan (~50–54K vs. 77,288 t) por menor producción de Melt Shop.
+- Melt Shop y Rolling Mill: se procesan en sus propios hilos/proyectos (no mezclar aquí).
+
+## Riesgos abiertos (Scrap Yard, agosto 2026)
+
+- Maintenance +$21K sobre budget ($132K vs. $111K); driver principal Transglobal Solutions (facturas de reparación de locomotoras acumuladas de varios periodos por timing de PR y facturación tardía) — falta detalle para confirmar la desviación.
+- Leasing: facturas pendientes (~$69K recibido vs. ~$90K mensual típico); disponibilidad de Sennebogen/E-Crane y estructura de contrato bajo revisión (unidad Regent a devolver, tercera Sennebogen aprobada vía DLL, restricción ~312 hrs/mes en DLL).
+- Logistics en cero: provisión del mes anterior pendiente, sin facturas registradas.
 
 ## Open threads
 
-- Registrar aqui el proximo cierre de cost review (mes, hallazgos clave, riesgos) cuando este listo.
+- [ ] Deliverables de cierre de agosto (Scrap Yard): correo de solicitud de comentarios con recap, párrafo ejecutivo de Cost per Ton, y resumen ejecutivo consolidado.
+- [ ] Registrar factura o provisión de Lyle Machinery (Sennebogen) antes del cutoff (2 sep).
+- [ ] Reclasificar Office Expense $200 al centro de costo administrativo del Scrap Yard.
+- [ ] Evaluar centro de costo dedicado para Scrap Cut / external scrap para 2027.
 
 ## References
 
-- Metodologia y estilo: ver "Referencias" en CLAUDE.md de este proyecto.
-- Docs originales del Project de claude.ai (perfil, reglas completas) - contenido ya distribuido entre este proyecto, los skills y la wiki; no se duplica aqui.
+- Metodología y estilo: ver "Referencias" en [CLAUDE.md](CLAUDE.md) de este proyecto.
+- Correos finales de referencia (Jan/Feb/Mar/May 2026) en `01_raw/_processed/`.
