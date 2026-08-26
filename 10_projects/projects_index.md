@@ -14,4 +14,4 @@
 - **[vsm-planeacion-financiera/](vsm-planeacion-financiera/CLAUDE.md)** — VSM del área de Planeación Financiera de Optimus Steel: inventario maestro de procesos, mapeo detallado (disparador, pasos, sistemas, tiempos, desperdicios) y sincronización con Smartsheet.
 
 ---
-*A new project is opened with `03_skills/project-kickoff/SKILL.md`.*
+*A new project is opened with `03_skills/flusso/project-kickoff/SKILL.md`.*
