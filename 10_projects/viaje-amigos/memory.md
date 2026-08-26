@@ -2,7 +2,7 @@
 
 Estado actual de la planeacion de la despedida de soltero grupal a Colombia. La historia (fechas o rutas descartadas) vive en archive.md de esta carpeta.
 
-Last updated: 2026-08-25 (creacion inicial del proyecto: investigacion de fechas, vuelos, hospedaje, actividades, presupuesto y comparativo de 6 rutas)
+Last updated: 2026-08-26 (confirmada Opcion A como recomendada; ampliado a comparativo de 6 rutas con presupuesto recalculado incluyendo maleta documentada)
 
 ## Datos generales
 
